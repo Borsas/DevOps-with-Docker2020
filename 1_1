@@ -1,0 +1,10 @@
+Script started on 2020-08-26 13:00:59+03:00 [TERM="xterm-kitty" TTY="/dev/pts/3" COLUMNS="111" LINES="77"]
+]0;osku@Chomusuke:~/Koulu/DevOpsDocker[osku@Chomusuke DevOpsDocker]$ sudo docker ps -a
+[sudo] password for osku: 
+CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS                      PORTS               NAMES
+1edbd13fd41d        nginx               "/docker-entrypoint.…"   About a minute ago   Exited (0) 29 seconds ago                       jolly_austin
+dac4009f491e        nginx               "/docker-entrypoint.…"   About a minute ago   Exited (0) 24 seconds ago                       jolly_khayyam
+3f2b6bb28972        nginx               "/docker-entrypoint.…"   About a minute ago   Up About a minute           80/tcp              keen_fermi
+]0;osku@Chomusuke:~/Koulu/DevOpsDocker[osku@Chomusuke DevOpsDocker]$ exit
+
+Script done on 2020-08-26 13:01:13+03:00 [COMMAND_EXIT_CODE="0"]
