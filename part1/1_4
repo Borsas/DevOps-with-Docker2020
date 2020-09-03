@@ -1,0 +1,8 @@
+commands:
+docker pull devopsdockeruh/exec_bash_exercise
+docker run -d --name clock devopsdockeruh/exec_bash_exercise
+docker exec -it clock bash
+
+secret:
+
+"Docker is eay"
