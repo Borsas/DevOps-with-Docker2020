@@ -1,0 +1,14 @@
+commands:
+
+docker pull ubuntu
+docker run -it ubuntu bash
+##install curl:
+    apt update
+    apt install curl
+    exit
+
+#find id and make a copy of ubuntu with curl 
+docker ps -l
+docker commit <id> ubuntu-curl
+
+docker run -it --name curl ubuntu-curl sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;' 
