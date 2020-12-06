@@ -1,0 +1,10 @@
+docker pull devopsdockeruh/ports_exercise
+
+# Find the image ID
+docker images
+
+docker run -d -p 80:80 40f5014f7503
+
+
+## localhost:80
+Ports configured correctly!!
