@@ -1,0 +1,4 @@
+
+docker run -d -p 3000:3000 1_12_front
+
+docker run -d -p 8000:8000 1_12_back
