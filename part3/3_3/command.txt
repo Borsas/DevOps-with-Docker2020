@@ -1,0 +1,1 @@
+docker run -it -v /var/run/docker.sock:/var/run/docker.sock downloader_sh https://github.com/docker-hy/ml-kurkkumopo-backend
