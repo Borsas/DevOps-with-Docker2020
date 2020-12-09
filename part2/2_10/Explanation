@@ -1,0 +1,8 @@
+Changed the backend image CMD to not include the ":5000" port.
+Didn't have to change anything in the frontside image.
+
+CMD ["/bin/sh", "-c", "FRONT_URL=http://localhost:5000 npm start"]
+
+TO
+
+CMD ["/bin/sh", "-c", "FRONT_URL=http://localhost npm start"]
