@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  frontend:
+    image: '1_12_front'
+    ports: 
+      - 5000:5000
+    container_name: frontend
+
+  backend:
+    image: '1_12_back'
+    ports:
+      - 8000:8000
+    container_name: backend
